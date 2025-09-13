@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Penn Class Search</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="penn-bar">
+				<img src="assets/penn_logo.png" alt="Penn Logo" class="logo">
+				<button class="login-btn">Login</button>
+			</div>
+			<div class="search-title">Search Classes</div>
+		</div>
+		<form class="search-form">
+			<input type="text" class="term-input" value="FALL 2025" readonly>
+			<input type="text" class="keyword-input" placeholder="Title, Subject, Instructor, Keyword">
+			<input type="text" class="method-input" value="INSTRUCTION METHOD" readonly>
+			<div class="checkbox-group">
+				<label><input type="checkbox"> Find courses available to students in online programs</label>
+				<label><input type="checkbox"> Don't Overlap Primary Cart</label>
+			</div>
+			<button type="button" class="search-btn">SEARCH</button>
+		</form>
+		<div class="section-label">SUGGESTIONS</div>
+		<div class="suggestions">
+			<button class="suggestion-btn">EXPLORE PROGRAMS</button>
+			<button class="suggestion-btn">DEGREE AUDIT & ADVISING</button>
+		</div>
+		<div class="section-label">CARTS</div>
+		<div class="carts">
+			<button class="cart-btn">PRIMARY CART</button>
+		</div>
+	</div>
+</body>
+</html>
